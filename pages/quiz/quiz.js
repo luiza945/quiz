@@ -1,4 +1,4 @@
-import { verificarTema, trocarTema } from "../../helpers/tema-helper.js"
+import { verificarTema, trocarTema} from "../../helpers/tema-helper.js"
 
 const botaoTema = document.querySelector(".tema button")
 const body = document.querySelector("body")
@@ -171,7 +171,7 @@ function adicionarEventoInputs() {
 
  async function iniciar() {
     alterarAssunto() 
-    await buscarPerguntas()
+await buscarPerguntas()
     montarPergunta()
     adicionarEventoInputs()
 
