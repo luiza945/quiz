@@ -112,7 +112,7 @@ function montarPergunta() {
     return texto.replace(/</g, "&lt;").replace(/>/g, "&gt;")
  }
 
- function gurdarResposta (evento) {
+ function gurdarResposta(evento) {
     resposta = evento.target.value
     idInputResposta = evento.target.id
 
